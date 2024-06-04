@@ -543,20 +543,12 @@ img {vertical-align: middle;}
 /* ----------------------- Page Specific Styling below ---------------------- */
 
 /* ---------------------------- Homepage Styling ---------------------------- */
-#banner{
-  width: 100%;
-  background-image: url('Images/ME_DEM_thesis_PPT_graphic.png');
-  height: 405px;
-  background-color: var(--main);
-  background-position: center;
-  background-size: cover; /* Ensures the image covers the entire area */
-}
-/*.banner{
+.banner{
   width: 100%;
   height: 700px;
   overflow-x: hidden;
   background-color: var(--main);
-}*/
+}
 
 .homepage_container {
   display: flex; /* Use flexbox for layout */
